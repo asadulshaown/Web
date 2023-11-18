@@ -1,0 +1,247 @@
+body{
+    max-width: fit-content;
+    margin-left: 20px;
+    background-color: rgb(164, 182, 164);
+}
+div.header{
+    border: 1px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+ ul{
+    list-style: none;
+}
+.he ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+marquee{
+    font-size: 50px;
+    color: rgb(17, 235, 28);
+    font-style: italic;
+}
+marquee:hover{
+    background-color: black;
+    }
+.cont{
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(17, 235, 28);
+}
+
+p.pra{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+ 
+form{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: red;
+}
+input.text{
+    border: 5px solid;
+    border-color: black;
+    border-radius: 5deg;
+    width: 250px;
+    height: 40px;
+}
+input.email{
+    border: 5px solid;
+    border-color: black;
+    border-radius: 5deg;
+    width: 250px;
+    height: 40px;
+}
+    input.pass{
+        border: 5px solid;
+        border-color: black;
+        border-radius: 5deg;
+        width: 250px;
+        height: 40px;
+    }
+/*
+th{
+    color: rgb(22, 223, 22);
+    border: 1px;
+    column-rule-color: black;
+}*/
+button.sup{
+    background-color: crimson;
+}
+.sup:hover{
+background-color: rgb(22, 223, 15);
+}
+button.sin{
+    background-color: rgb(161, 43, 136);
+}
+.sin:hover{
+border-color: aquamarine;
+background-color: aqua;
+}
+
+.pic{
+   border-width: 5px;
+   border-style: solid;
+    height: auto;
+    width: 100%;
+}
+.pic:hover{
+    border-color: chartreuse;
+}
+ul.list{
+    user-select: none;
+}
+a.fblink{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: red;
+background-color: black;
+}
+a:active{
+    color: yellow;
+    background-color: black;
+}
+
+li{
+font-style: italic;
+color: red;
+
+}/*
+table{
+    border: 1px;
+    border-style: solid;
+    columns: 1px;
+   
+}*/
+
+h2{
+    text-align: center;
+    color: red;
+}
+
+
+b{
+    font-size: 25px;
+}
+.pub{
+    font-style: italic;
+    font-size: 40px;
+    color: green;
+}
+
+.card{
+   margin-top: 70px;
+    margin-left: 100px;
+    width: 250px;
+    height: 150px;
+border-width: 1px;
+border-style: solid;
+}
+.vis{
+  margin-top: 40px;
+    color:red;
+    text-align: center;
+   font-family: sans-serif;
+  font-size: 60px;
+user-select: none;
+animation-name: vis;
+animation-duration: 10s;
+}/*
+@keyframes vis{
+    0%{ color: gold; transform: rotate(0dg);}
+25%{ background-color: green;transform: rotate(45dg);}
+50%{
+    color: red; transform: rotate(180dg);
+}
+100%{
+    background-color: crimson;transform: rotate(360dg);
+}}*/
+.card:hover{background-color: black;
+   
+}
+.vis:hover{
+    color: chartreuse;
+    animation-name: example;
+    animation-duration: 10; 
+    animation-delay: 2s; 
+}
+div.box{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position:relative;
+color: gold;
+margin: 30px 90px;
+border-radius:50px;
+border-color: green;
+
+  }
+  div.box:hover{
+    animation-name: bo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: .5s;
+
+  }
+ @keyframes bo{
+    0%{
+        transform: rotate(0dg);
+        color: rgb(46, 14, 231);
+    }
+    100%{
+        transform: rotate(360deg);
+        color: red;
+    }
+ } 
+h3.cy{
+
+text-align: center;
+margin:40px 60px;
+width: 50px;
+height: 40px;
+font-family: Arial, Helvetica, sans-serif;
+}
+div.rota{
+    border: 2px solid;
+    border-radius: 360px;
+    width: 100px;
+    height: 100px;
+    margin: 40px 100px;
+    color: greenyellow;
+    animation-name: rot;
+    animation-duration: 5s;
+    animation-delay: .5s;
+    animation-direction: alternate;
+   animation-iteration-count: infinite;
+}
+@keyframes rot{
+    0%{transform:scale(1) rotate(45deg);
+        color: aqua;
+        background-color: black;
+    }
+    25%{
+        transform:scale(1.1) rotate(90deg);
+        color: blue;
+        background-color: white;
+    }
+    50%{
+        transform:scale() rotate(140deg);
+        color: red;
+        background-color: darkturquoise;
+    }
+    100%{
+        transform:scale() rotate(360deg);
+        color: green;
+        background-color: whitesmoke;
+    }
+}
